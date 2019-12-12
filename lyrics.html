@@ -1,0 +1,61 @@
+<style>
+a {
+color: #0366d6;
+text-decoration: none;
+}
+body {
+    font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji;
+    font-size: 16px;
+    line-height: 1.5;
+    word-wrap: break-word;
+    padding:20px;
+}
+</style>
+
+<body>
+<h1>Lyrics</h1>
+
+<h2>Example service:</h2>
+
+<div style='padding:10px; background-color: #eee;'>URL API: <b>ic.lyrics.ks</b></div>
+<div style='padding: 10px;'></div>
+<a href='radioxapp://lyrics=ic.lyrics.ks'><img src="https://github.com/igorolrev/radio/raw/master/Images/openInRadio.png" alt="openInRadio.png"></a>
+
+<h2>Example APISEEDS</h2>
+
+<div style='padding:10px; background-color: #eee;'>
+URL API: <a href = 'https://orion.apiseeds.com/api/music/lyric/'>https://orion.apiseeds.com/api/music/lyric/</a>
+</br></br>
+Documentation:  <a href = 'https://orion.apiseeds.com/documentation/lyrics'>https://orion.apiseeds.com/documentation/lyrics</a>
+</br></br>
+<a href = 'https://orion.apiseeds.com/'>Get your FREE Api Key</a>
+
+</div>
+
+<h2>Example Other API:</h2>
+<div style='padding:10px; background-color: #eee;'>
+URL :url/:artist/:track or :url/:artist/:track?apikey=:key
+</div>
+</br>
+<div style='padding:10px; background-color: #eee;'>
+<h4>output JSON #1:</h4>
+    {
+        "result": {
+            "track": {
+                "text": "TEXT",
+            }
+        }
+    } </br>
+</div>
+
+</br>
+
+
+<div style='padding:10px; background-color: #eee;'>
+<h4>output JSON #2:</h4>
+    {
+        "lyric": "TEXT",
+        "err":"none"
+    }</br>
+</div>
+    </body>
