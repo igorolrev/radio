@@ -5,7 +5,7 @@
 
 # Example service:
     URL API: ic.lyrics.ks
-[![N|Solid](https://github.com/igorolrev/radio/raw/master/Images/openInRadio.png)](radioxapp://lyrics=ic.lyrics.ks)
+[Open URL in Radio App](radioxapp://lyrics=ic.lyrics.ks)
 
 # Example APISEEDS 
     URL API: https://orion.apiseeds.com/api/music/lyric/
